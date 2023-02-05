@@ -76,10 +76,10 @@ I can store all the information in multiple files, but that would mean a massive
 
 # Solution
 
-1°) I'm going to need a special list for "edge-cases"
+1°) Use a discord bot to scrap all the data, into a local file
 
-2°) Only the name of the original poster will be used
+2°) Sanitize this file, since people have posted sprites with wrong names
 
-3°) Each fusion with custom sprites will have a folder
+3°) Generate folders "per sprite" with names of authors
 
-4°) The information "artist" will be placed inside that folder
+4°) Manually fix cases where there are alts
